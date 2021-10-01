@@ -1,0 +1,57 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+:root {
+  --mainWhite: #ffffff;
+  --lightShadow: 0px 0.4rem 1.8rem rgb(28 28 28 / 12%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  padding: 50px;
+  border-radius: 1.5rem;
+  background-color: var(--mainWhite);
+  text-align: center;
+  border-color: rgb(232, 232, 232);
+  box-sizing: border-box;
+  margin: 15%;
+  box-shadow: var(--lightShadow);
+}
+.btn {
+  width: 200px;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--mainWhite);
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  background-image: linear-gradient(
+    to right,
+    #f5ce62,
+    #e43603,
+    #fa7199,
+    #e85a19
+  );
+  box-shadow: var(--lightShadow);
+
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
